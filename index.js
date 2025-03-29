@@ -13,7 +13,7 @@ const { User } = require("./models/User");
 // 데이터베이스 접속 정보를 저장한 설정 파일을 불러옵니다.
 const config = require("./config/key");
 
-// 📌 클라이언트에서 보낸 데이터를 해석할 수 있도록 설정합니다.
+// 클라이언트에서 보낸 데이터를 해석할 수 있도록 설정합니다.
 // `application/x-www-form-urlencoded` 방식으로 전송된 데이터를 해석
 app.use(bodyParser.urlencoded({ extended: true }));
 
